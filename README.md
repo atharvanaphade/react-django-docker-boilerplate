@@ -14,7 +14,7 @@
 
 ### Commands
 
-- Copy your backend Django project in the /backend directory and all the needed dependencies to requirements.txt and frontend in the /frontend directory and change the %PROJECT_NAME%.wsgi file name to your Django project name.
+- Copy your backend Django project in the /backend directory and all the needed dependencies to requirements.txt and frontend in the /frontend directory and change the %PROJECT_NAME%.wsgi in docker/backend/wsgi-endpoint.sh file name to your Django project name.
 - To run the project in development mode :- 
 ```   
     sudo docker-compose -f docker-compose-dev.yml build && up

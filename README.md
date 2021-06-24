@@ -1,4 +1,4 @@
-# DIY Django and React Boilerplate
+# Django and React Boilerplate
 
 ## Features (already implemented or planned)
 

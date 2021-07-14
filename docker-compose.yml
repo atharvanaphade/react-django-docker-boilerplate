@@ -31,6 +31,7 @@ services:
         entrypoint: /app/docker/backend/wsgi-entrypoint.sh
         volumes:
             - static_volume:/app/backend/server/django_static
+            - ./backend/server/db.sqlite3:/app/backend/server/db.sqlite3
         expose:
             - 8000        
 
